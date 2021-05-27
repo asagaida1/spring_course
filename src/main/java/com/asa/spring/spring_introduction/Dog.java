@@ -1,6 +1,7 @@
 package com.asa.spring.spring_introduction;
 
-public class Dog {
+public class Dog implements Pet{
+    @Override
     public void say(){
         System.out.println("Bow-Wow");
     }
